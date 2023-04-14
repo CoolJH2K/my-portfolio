@@ -146,7 +146,7 @@ section div a div {
 
 /* Stylizes the Surf Report image in the Work section */
 .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("../images/dis-cover-music-screenshot.png");
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
