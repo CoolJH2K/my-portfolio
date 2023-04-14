@@ -145,7 +145,7 @@ section div a div {
 }
 
 /* Stylizes the Surf Report image in the Work section */
-.surf-report {
+.dis-cover-music {
     background-image: url("../images/dis-cover-music-screenshot.png");
     display: flex;
     flex-direction: row;
