@@ -33,12 +33,6 @@ header {
     justify-content: space-between;
 }
 
-#header-image {
-    background-color: var(--secondary);
-    height: 60px;
-    width: auto;
-}
-
 .hero-banner {
     align-items: flex-end;
     background-image: url("../images/02-hero-bg.jpg");
