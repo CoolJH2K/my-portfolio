@@ -146,9 +146,8 @@ section div a div {
 }
 
 /* Stylizes the dis-Cover Music image in the Work section */
-.dis-cover-music {
+.dis-cover-music, .social-revue {
     background-size: contain;
-    background-image: url("../images/dis-cover-music-screenshot.png");
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -157,9 +156,13 @@ section div a div {
     width: 800px;
 }
 
+.dis-cover-music {
+    background-image: url("../images/dis-cover-music-screenshot.png");
+}
+
 /* Adds images to their corresponding areas */
-.led-wall {
-    background-image: url("../images/02-portfolio-1.jpg");
+.social-revue {
+    background-image: url("../images/social-revue-screenshot.png");
 }
 
 .react-calc {
