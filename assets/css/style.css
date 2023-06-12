@@ -6,7 +6,8 @@
 /* Brand color pallate */
 :root {
     --primary: rgba(68, 68, 119, 1);
-    --secondary: rgba(146, 204, 206, 1);
+    --secondary: rgba(146, 
+    204, 206, 1);
     --tertiary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
@@ -146,7 +147,7 @@ section div a div {
 }
 
 /* Stylizes the dis-Cover Music image in the Work section */
-.dis-cover-music, .social-revue {
+.dis-cover-music, .social-revue, .persuade-me {
     background-size: contain;
     display: flex;
     flex-direction: row;
@@ -165,8 +166,8 @@ section div a div {
     background-image: url("../images/social-revue-screenshot.png");
 }
 
-.react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
+.persuade-me {
+    background-image: url("../images/persuade-me-screenshot.png");
 }
 
 .pastel-puzzles {
