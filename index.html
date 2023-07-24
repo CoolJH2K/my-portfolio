@@ -10,37 +10,26 @@
     <body>
         <header>
             <h1>Janna Harmon</h1>
-            <div>
-                <!--Sets up the navigation bar-->
-                <nav>
-                    <!--These links will take you straight to each section of my portfolio-->
-                    <ul>
-                        <li>
-                            <a href="#about-me">About Me</a>
-                        </li>
-                        <li>
-                            <a href="#work">Work</a>
-                        </li>
-                        <li>
-                            <a href="#contact-me">Contact Me</a>
-                        </li>
-                        <li>
-                            <a href="#resume">Resume</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <!--Sets up the navigation bar-->
+            <nav>
+                <a href="#about-me">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact-me">Contact Me</a>
+                <a href="#resume">Resume</a>
+            </nav>
         </header>
         <!--Sets up the banner on the top of the page-->
-        <div id="banner" class="hero-banner">
-            <h2>Aspiring Web Designer</h2>
-        </div>
-        <main>
+        <section class="hero-banner">
+            <div>
+                <h2>Aspiring Web Designer</h2>
+            </div>
+        </section>
+        <main class="page-wrapper">
             <!--Sets up the "About Me" section-->
             <section id="about-me" class="page-section">
                 <h2>About Me</h2>
                 <div>
-                    <p>I am a 23-year-old college boot camp student who is an aspiring web designer.</p>
+                    <p>I am a 23-year-old college boot camp graduate who is an aspiring web designer.</p>
                 </div>
             </section>
             <!--Sets up the "Work" section-->
@@ -65,34 +54,16 @@
                             <span>React/JavaScript</span>
                         </div>
                     </a>
-                    <a href="#" class="flex-item pastel-puzzles">
-                        <div>
-                            <h3>Pastel Puzzles</h3>
-                            <span>MERN Stack</span>
-                        </div>
-                    </a>
-                    <a href="#" class="flex-item run-buddy">
-                        <div>
-                            <h3>Run Buddy</h3>
-                            <span>HTML/CSS</span>
-                        </div>
-                    </a>
                 </div>
             </section>
             <!--Sets up the "Contact Me" section-->
-            <section id="contact-me" class="page-section">
+            <section id="contact-me" class="page-section contact">
                 <h2>Contact Me</h2>
                 <div>
                     <address>
-                        <ul>
-                            <li>407.330.8991</li>
-                            <li>
-                                <a href="harmonjanna00@gmail.com">Email</a>
-                            </li>
-                            <li>
-                                <a href="github.com/cooljh2k">Github</a>
-                            </li>
-                        </ul>
+                        <a href="tel:+14073308991">407.330.8991</a>
+                        <a href="mailto:harmonjanna00@gmail.com">Email</a>
+                        <a href="github.com/cooljh2k">Github</a>
                     </address>
                 </div>
             </section>
